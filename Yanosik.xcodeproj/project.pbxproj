@@ -44,16 +44,14 @@
 		6E00E7702D8DC9090036249D = {
 			isa = PBXGroup;
 			children = (
-				6E00E7CA2D90079D0036249D /* New Group 2 */,
+				6E5FEAD62D900E5C00CFBE83 /* Views */,
+				6E00E7CB2D900B700036249D /* Controllers */,
 				6E00E7B32D9005C90036249D /* AppDelegate.swift */,
 				6E00E7B92D9005C90036249D /* SceneDelegate.swift */,
 				6E00E7B82D9005C90036249D /* LaunchScreen.storyboard */,
 				6E00E7B42D9005C90036249D /* Assets.xcassets */,
 				6E00E7B72D9005C90036249D /* Info.plist */,
 				6E00E7BA2D9005C90036249D /* Yanosik.xcdatamodeld */,
-				6E00E7B22D9005C90036249D /* AddFuelViewController.swift */,
-				6E00E7B62D9005C90036249D /* FuelHeaderView.swift */,
-				6E00E7B52D9005C90036249D /* FirstScreen.swift */,
 				6E00E77A2D8DC9090036249D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,11 +64,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E00E7CA2D90079D0036249D /* New Group 2 */ = {
+		6E00E7CB2D900B700036249D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6E00E7B52D9005C90036249D /* FirstScreen.swift */,
+				6E00E7B22D9005C90036249D /* AddFuelViewController.swift */,
 			);
-			path = "New Group 2";
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6E5FEAD62D900E5C00CFBE83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E00E7B62D9005C90036249D /* FuelHeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
